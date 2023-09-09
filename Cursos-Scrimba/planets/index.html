@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pratica de um site</title>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            p {
+                color: brown;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="corpo">
+        <h1 style="font-size: 60px">Earth and Mars</h1>
+        <p>Earth and Mars are two planets within our solar system.</p>
+        <p>Which planet would you like to know better?</p>
+            <ul>
+            <li>I would like to <a href="earth.html">know more about earth</a>.</li>
+            <li>I would like to <a href="mars.html">know more about mars</a>.</li>
+            </ul>
+<br>
+            <form method="POST" action="/servidor">
+                <input type="password" name="senha">
+                <input type="submit">
+                <br> <br> <br>
+
+                <input type="checkbox" name="planeta" value="opc1"> Terra
+                <br>
+                <input type="checkbox" name="planeta" value="opc2"> Marte   
+                <input type="submit">
+                <br> <br> <br>
+
+                <input type="radio" name="cor" value="azul" checked>azul
+                <input type="radio" name="cor" value="vermelho">vermelho
+                <input type="submit">
+
+                <input type="reset" value="Resetar">
+            </form>
+            <input type="submit">
+
+            <form method="GET" action="">
+                <select name="Planetas" size="2" multiple>
+                    <option value="Marte">Marte</option>
+                    <option value="Terra" selected>Terra</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Netuno">Netuno</option>
+                    <input type="submit">
+                </select>
+                <br> <br> <br>
+
+                <input type="text" name="assunto"><br>
+                <textarea name="resposta"></textarea>
+                <br>
+                <input type="submit">
+
+                <br> <br> <br>
+
+                <input type="color" name="cor">
+                <br>
+
+                <input type="date" name="data" max="2021-12-31">
+                <br>
+
+                <input type="number" name="numerico">
+                <br>
+
+                <input type="range" name="intervalo" min="0" max="80" value="1">
+
+
+                <br>
+                <input type="submit">
+               <br> <br><br>
+            </form>
+
+            <form method="POST" action="">
+
+                <input type="file" name="arquivo">
+                <br>
+                <input type="submit">
+            </form>
+
+
+                
+
+        </div>
+
+    </body>
+</html>
+
+
+<!-- # Earth and Mars
+
+Earth and Mars are two planets within our solar system.
+
+Which planet would you like to know better?
+
+- I would like to [know more about earth](earth.html).
+- I would like to [know more about mars](mars.html). -->

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: darkblue;
+    color: lightseagreen;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 25px;
+    border: 13px solid  plum;
+
+}
+
+main {
+   background-color: lightcoral;
+   width: 600px;
+   padding: 60px;
+   border: 5px solid red;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+footer {
+    background-color: darkcyan;
+    color: lightpink;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 25px;
+    width: 400px;
+    margin: 0 auto;
+}
